@@ -24,7 +24,7 @@ type RobotMarkerType = {
   showInMap?: boolean;
 };
 
-const API_KEY = '';
+const API_KEY = 'AIzaSyA-LxU0W96IC_DLhWHzVuhs_0ppE9RpYrE';
 const BUILDING_CENTER_LAT = 1.3016000023376049;
 const BUILDING_CENTER_LNG = 103.77836792559908;
 const SCALE_FACTOR = 0.22;
@@ -282,7 +282,7 @@ onMounted(() => {
       </div>
     </div>
 
-    <div class="mt-8">
+    <div class="my-8">
       <GoogleMap
         :api-key="API_KEY"
         class="w-full h-[600px] rounded-lg shadow-lg"
